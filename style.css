@@ -1,0 +1,290 @@
+:root {
+  --body-font-family:var(--body-font-family)
+  }
+
+
+/*
+* Main Header
+*/ 
+
+.header { 
+    z-index: 2;
+}
+
+/*
+* flyout nav bar
+*/ 
+
+#home {
+  background: url(/eigner_code/assets/header_3.png) no-repeat center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100;
+  background-size: cover;
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+#navbar {
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+background-color: #37392E;
+z-index: 4;
+}
+
+.dropdown-nav__closeNavBtn {
+position: absolute;
+top: 20px;
+right: 16px;
+
+}
+
+h1 {
+    color: #917153;
+}
+
+
+.lead a {
+  color: #917153 !important;
+}
+
+
+.intro-excerpt a {
+    color: #917153 !important;
+    font-weight: bolder;
+}
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+   
+}
+
+.intro-excerpt {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 60%;
+
+}
+
+.intro-excerpt p {
+
+    color: rgb(0, 0, 0);
+    width: 80%;
+}
+
+.hero-img-wrap {
+  margin-top: 50px;
+}
+
+.container-custom {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+    @media (min-width: 1200px) {
+    .container-custom { width: 1140px; }
+  }
+
+
+  @media (min-width: 1400px) {
+    .container-custom { width: 1340px; }
+  }
+
+  @media (min-width: 1600px) {
+    .container-custom { width: 1520px; }
+  }
+
+  .steps__section-thumbnail {
+    height: 240px;
+    object-fit: cover;
+  }
+
+
+.steps {
+padding-top: 40px;
+padding-bottom: 80px;
+
+}
+
+.socialicons {
+  width: 40px;
+  height: 40px;
+
+}
+
+.bavaria a {
+  text-decoration: none !important;
+  list-style-type: none;
+  color: black;
+
+}
+.footer-bottom h4 a {
+  text-decoration: none !important;
+  color:#917153 !important;
+
+}
+
+#footer {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.imprint {
+  margin: auto;
+  padding: 40px 0;
+  width: 600px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+}
+
+
+
+.button {
+  
+  border: none;
+  display: inline-block;
+  background-color: #202A44; 
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  text-transform: uppercase;
+  padding: 0.7rem 1.2rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.custom {
+  margin: auto;
+  padding: 40px 0;
+
+}
+
+
+
+.denis {
+  border-radius: 50%;
+}
+
+
+.header img {
+  border-radius: 50%;
+
+}
+
+.masthead {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./assets/header-slogan.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+
+.slogan {
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.color-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+}
+
+@media (max-width: 768px) {
+.masthead {
+  min-height: 100vh;
+}
+}
+
+.headertext {
+  background-color: #37392E;
+}
+
+.headertext p {
+  color: aliceblue;
+}
+
+.logohead{
+  display: block;
+ 
+}
+
+
+#hero p {
+  color: #f0f8ff;
+}
+#custom {
+  background-color: #37392E;
+}
+
+.heading {
+  line-height: 10%;
+  text-decoration: underline;
+}
+
+.padding {
+  padding-top: 50px;
+  background-color: rgba(145, 113, 83, 0.4);
+}
+
+.slogan {
+  padding-top: 100px;
+  
+}
+
+.slogan h2{
+ color:#202A44;
+  
+}
+
+@media (max-width: 768px) {
+  .slogan {
+ 
+  margin-bottom: 80px;
+  }
+  }
+
+.padding img {
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  .padding {
+
+  margin-bottom: 50px;
+  }
+  }
+
+  .sonstiges ul {
+    display: table;
+    margin: 0 auto;
+  }
+
+.service-container {
+  max-width: 600px;
+  text-align: center;
+}
