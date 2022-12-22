@@ -208,7 +208,20 @@ padding-bottom: 80px;
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+  .imprint {
+ 
+   width: auto;
+  }
+  }
 
+  @media (max-width: 768px) {
+    .gdpr h1 {
+   
+     text-align: center;
+    }
+    }
+  
 
 .button {
   
@@ -226,6 +239,12 @@ padding-bottom: 80px;
   font-weight: 700;
 }
 
+@media (max-width: 768px) {
+  .padding .button {
+ 
+   justify-content: center;
+  }
+  }
 
 .button:hover {
 color: #394952 !important;
@@ -361,3 +380,11 @@ text-decoration: none;
 .header-logo {
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .header-logo img{
+ 
+    width: 380px;
+  
+  }
+  }
