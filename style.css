@@ -1,3 +1,31 @@
+/*fonts*/
+@font-face {
+  font-family: 'ethno';
+  src: url('./assets/fonts/ethnocentric_rg-webfont.woff2') format('woff2'),
+       url('./assets/fonts/ethnocentric_rg-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'painting';
+  src: url('./assets/fonts/painting_with_chocolate-webfont.woff2') format('woff2'),
+       url('./assets/fonts/painting_with_chocolate-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'sofa';
+  src: url('./assets/fonts/sofachrome_rg-webfont.woff2') format('woff2'),
+       url('./assets/fonts/sofachrome_rg-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 :root {
   --body-font-family:var(--body-font-family)
   }
@@ -15,6 +43,25 @@
 * flyout nav bar
 */ 
 
+.painting {
+  font-family: 'painting';
+  color: #E09B7C;
+}
+
+.sofa {
+  font-family: 'sofa';
+  color: #E09B7C;
+}
+
+.ethno {
+  font-family: 'ethno';
+  color: #E09B7C;
+}
+
+/*
+* else
+*/ 
+
 #home {
   background: url(/eigner_code/assets/header_3.png) no-repeat center fixed;
   display: table;
@@ -23,6 +70,8 @@
   width: 100;
   background-size: cover;
 }
+
+
 
 .landing-text {
   display: table-cell;
@@ -57,17 +106,17 @@ right: 16px;
 }
 
 h1 {
-    color: #917153;
+    color: #E09B7C;
 }
 
 
 .lead a {
-  color: #917153 !important;
+  color: #E09B7C !important;
 }
 
 
 .intro-excerpt a {
-    color: #917153 !important;
+    color: #E09B7C !important;
     font-weight: bolder;
 }
 
@@ -141,7 +190,7 @@ padding-bottom: 80px;
 }
 .footer-bottom h4 a {
   text-decoration: none !important;
-  color:#917153 !important;
+  color:#E09B7C !important;
 
 }
 
@@ -165,7 +214,7 @@ padding-bottom: 80px;
   
   border: none;
   display: inline-block;
-  background-color: #202A44; 
+  background-color: #E09B7C; 
   color: #FFFFFF;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -175,6 +224,12 @@ padding-bottom: 80px;
   padding: 0.7rem 1.2rem;
   text-decoration: none;
   font-weight: 700;
+}
+
+
+.button:hover {
+color: #394952 !important;
+text-decoration: none;
 }
 
 .custom {
@@ -256,7 +311,7 @@ padding-bottom: 80px;
 
 .padding {
   padding-top: 50px;
-  background-color: #394952;
+
 }
 
 .slogan {
